@@ -1,0 +1,31 @@
+/*  */
+
+* {
+    /* Entfernen des Abstandes zum Bildschirmrand */
+    margin: 0;
+    padding: 0;
+}
+
+
+body::-webkit-scrollbar {
+    /* Entfernen der Scrollbar */
+    display: none;
+}
+
+body {
+    /* Entfernen der Scrollbar */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+a {
+    /* Farbe und Dekoration entfernt */
+    text-decoration: none;
+    color: var(--text-clr);
+}
+
+li {
+    /* Listenoptik entfernt */
+    list-style: none;
+}

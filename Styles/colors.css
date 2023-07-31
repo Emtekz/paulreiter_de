@@ -1,9 +1,9 @@
 /*  */
+
 /* Farbpalette */
 :root {
     --main-clr: white;
-    --second-clr: black;
-
-    --text-clr: black;
-    --hover-clr: var(--second-clr);
+    --second-clr: white;
+    --text-clr: white;
+    --hover-clr: var(--second-clr)
 }
