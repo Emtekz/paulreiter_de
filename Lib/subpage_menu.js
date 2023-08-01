@@ -23,7 +23,7 @@ menuIcon.addEventListener('click', () => {
         background.style.filter = "brightness(35%)"
         background.style.position = "fixed"
         
-        // slogan.style.opacity = "0";
+        slogan.style.opacity = "0";
         
         document.querySelector('body').style.overflow = "hidden";
         
@@ -40,7 +40,7 @@ menuIcon.addEventListener('click', () => {
         background.style.filter = "brightness(65%)"
         background.style.position = "";
 
-        // slogan.style.opacity = "1";
+        slogan.style.opacity = "1";
         
         document.querySelector('body').style.overflow = "visible";
 
