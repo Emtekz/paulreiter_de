@@ -22,7 +22,7 @@ menuIcon.addEventListener('click', () => {
             element.style.pointerEvents = "all";
         });
         
-        background.style.filter = "brightness(35%)"
+        background.style.filter = "brightness(25%)"
         background.style.position = "fixed"
         
         slogan.style.opacity = "0";
@@ -39,7 +39,7 @@ menuIcon.addEventListener('click', () => {
             element.style.pointerEvents = "none";
         });
         
-        background.style.filter = "brightness(65%)"
+        background.style.filter = "brightness(50%)"
         background.style.position = "";
 
         slogan.style.opacity = "1";
