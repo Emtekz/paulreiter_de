@@ -43,12 +43,12 @@
 }
 
 /* Animation: Nav-Links (Unterstrich) */
-.navigation a {
+.navigation li {
     display: inline-block;
     position: relative;
 }
 
-.navigation a::before {
+.navigation li::before {
     content: "";
     position: absolute;
     left: 0;
@@ -59,7 +59,7 @@
     transition: width 0.35s ease-out;
 }
 
-.navigation a:hover::before {
+.navigation li:hover::before {
     width: 100%;
 }
 
@@ -142,12 +142,14 @@
     }
 
     .header {
-        background-color: white;
+        /* background-color: white; */
     }
 
     .socials {
         width: 50%;
         padding: 25px 0;
         padding-left: 25%;
+
+        position: unset;
     }
 }
