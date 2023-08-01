@@ -1,6 +1,7 @@
 // 
 const menuIcon = document.querySelector('#menu');
 const navBar = document.querySelector('#navigation');
+const navLinks = document.querySelectorAll('#nav-link');
 
 const background = document.querySelector('#background-image');
 
@@ -15,6 +16,10 @@ menuIcon.addEventListener('click', () => {
         menuIcon.src = "Images/menu_close.png";
         
         navBar.style.opacity = 1;
+
+        navLinks.forEach(element => {
+            element.style.pointerEvents = "all";
+        });
         
         background.style.filter = "brightness(35%)"
         background.style.position = "fixed"
@@ -28,6 +33,10 @@ menuIcon.addEventListener('click', () => {
         menuIcon.src = "Images/menu_open.png";
         
         navBar.style.opacity = 0;
+
+        navLinks.forEach(element => {
+            element.style.pointerEvents = "none";
+        });
         
         background.style.filter = "brightness(65%)"
         background.style.position = "";
