@@ -9,7 +9,7 @@
     align-items: end;
     justify-content: center;
 
-    transition: opacity 0.30s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
 }
 
 .slogan h1 {
