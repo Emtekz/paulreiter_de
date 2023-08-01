@@ -19,4 +19,6 @@
 
     /* Helligkeit entfernt */
     filter: brightness(65%);
+
+    transition: filter .35s ease-in-out;
 }
