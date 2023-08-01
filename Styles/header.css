@@ -30,7 +30,7 @@ header {
     display: flex;
     justify-content: space-around;
 
-    width: 35%;
+    width: 750px;
 }
 
 .navigation li {
@@ -62,4 +62,30 @@ header {
 
 .active::before {
     width: 100%;
+}
+
+/* Hamburger Menu */
+.menu {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .navigation {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+
+        filter: invert(1);
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+
+        height: 15vh;
+
+        margin: 0 15px;
+    }
 }
