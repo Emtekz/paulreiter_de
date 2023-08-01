@@ -67,7 +67,7 @@
     width: 100%;
 }
 
-.active::before {
+.navigation .active::before {
     width: 100%;
 }
 
