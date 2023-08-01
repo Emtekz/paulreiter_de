@@ -1,5 +1,10 @@
 /*  */
 
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins/Poppins-Regular.ttf);
+}
+
 * {
     /* Entfernen des Abstandes zum Bildschirmrand */
     margin: 0;
@@ -16,6 +21,9 @@ body {
     /* Entfernen der Scrollbar */
     -ms-overflow-style: none;
     scrollbar-width: none;
+
+    /* Schriftart */
+    font-family: Poppins;
 }
 
 

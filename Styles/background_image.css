@@ -1,17 +1,22 @@
 /*  */
 
 .background-image {
+    /* Größe an Bildschirm angepasst */
     width: 100%;
     height: 100svh;
 
+    /* Verzerrung entfernt */
     object-position: center;
     object-fit: cover;
 
+    /* Am Eck Oben Links Postioniert */
     position: absolute;
     top: 0;
     left: 0;
 
+    /* In den Hintergrund */
     z-index: -1;
 
+    /* Helligkeit entfernt */
     filter: brightness(75%);
 }
