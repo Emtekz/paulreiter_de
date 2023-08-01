@@ -9,6 +9,7 @@ const slogan = document.querySelector('#slogan')
 
 let open = false;
 
+// comment
 
 menuIcon.addEventListener('click', () => {
     
