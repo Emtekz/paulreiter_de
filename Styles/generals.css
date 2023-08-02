@@ -26,6 +26,8 @@ body {
     /* Schriftart */
     font-family: Playfar;
     /* font-family: 'Prosto One', cursive; */
+
+    color: var(--text-clr);
 }
 
 

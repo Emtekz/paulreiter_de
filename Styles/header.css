@@ -2,11 +2,11 @@
 
 @import url(colors.css);
 
-/* @font-face {
+@font-face {
     font-family: Lugrasimo;
     src: url(Fonts/Lugrasimo/Lugrasimo-Regular.ttf);
-} */
-@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap');
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap'); */
 
 /* ----- Header komplett */
 .header {
@@ -24,8 +24,8 @@
 
 /* Headline */
 .headline {
-    /* font-family: Lugrasimo; */
-    font-family: 'Padyakke Expanded One', cursive;
+    font-family: Lugrasimo;
+    /* font-family: 'Padyakke Expanded One', cursive; */
     font-weight: 900;
     font-size: 2.75rem;
 
@@ -106,7 +106,7 @@
         left: 0;
 
         width: 100%;
-        height: 40vh;
+        height: 50vh;
 
         /* display: flex; */
         flex-direction: column;
@@ -135,6 +135,7 @@
     .header {
         flex-direction: row;
         justify-content: space-between;
+        /* align-items: center; */
 
         height: 15vh;
 
@@ -143,5 +144,9 @@
 
     .headline {
         font-size: 2rem;
+
+        height: 48px;
+
+        margin-top: 12px;
     }
 }
