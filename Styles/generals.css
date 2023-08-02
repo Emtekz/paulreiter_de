@@ -1,10 +1,10 @@
 /*  */
-@font-face {
+/* @font-face {
     font-family: Playfar;
     src: url(Fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
-}
+} */
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 
 * {
     /* Entfernen des Abstandes zum Bildschirmrand */
@@ -24,8 +24,8 @@ body {
     scrollbar-width: none;
 
     /* Schriftart */
-    /* font-family: Playfar; */
-    font-family: 'Dosis', sans-serif;
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: 'Prosto One', cursive;
 }
 
 

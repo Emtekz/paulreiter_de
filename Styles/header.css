@@ -2,10 +2,11 @@
 
 @import url(colors.css);
 
-@font-face {
+/* @font-face {
     font-family: Lugrasimo;
     src: url(Fonts/Lugrasimo/Lugrasimo-Regular.ttf);
-}
+} */
+@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap');
 
 /* ----- Header komplett */
 .header {
@@ -23,7 +24,8 @@
 
 /* Headline */
 .headline {
-    font-family: Lugrasimo;
+    /* font-family: Lugrasimo; */
+    font-family: 'Padyakke Expanded One', cursive;
     font-weight: 900;
     font-size: 2.75rem;
 
@@ -41,7 +43,7 @@
 }
 
 .navigation li {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
     color: var(--text-clr);
 }
