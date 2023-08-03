@@ -7,6 +7,8 @@ const background = document.querySelector('#background-image');
 
 const slogan = document.querySelector('#slogan')
 
+const socials = document.querySelector('#socials');
+
 let open = false;
 
 // comment
@@ -25,7 +27,10 @@ menuIcon.addEventListener('click', () => {
         background.style.filter = "brightness(25%)"
         background.style.position = "fixed"
         
-        slogan.style.opacity = "0";
+        slogan.style.opacity = 0;
+
+        socials.style.opacity = 1;
+        socials.style.pointerEvents = "all";
         
         document.querySelector('body').style.overflow = "hidden";
         
@@ -42,7 +47,10 @@ menuIcon.addEventListener('click', () => {
         background.style.filter = "brightness(50%)"
         background.style.position = "";
 
-        slogan.style.opacity = "1";
+        slogan.style.opacity = 1;
+
+        socials.style.opacity = 0;
+        socials.style.pointerEvents = "none";
         
         document.querySelector('body').style.overflow = "visible";
 

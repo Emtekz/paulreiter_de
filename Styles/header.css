@@ -32,6 +32,24 @@
     color: var(--text-clr);
 }
 
+/* Socials */
+.socials {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.socials img {
+    height: 35px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: filter ease-in-out .35s;
+}
+
+.socials img:hover {
+    filter: grayscale(0);
+}
+
 /* Navbar */
 .navigation {
     display: flex;
@@ -131,5 +149,19 @@
         height: 48px;
 
         margin-top: 12px;
+    }
+
+    .socials {
+        opacity: 0;
+        pointer-events: none;
+        top: 80vh;
+        left: calc(50vw - 37.5px);
+
+        transition: opacity ease-in-out .35s;
+    }
+
+    .socials img {
+        height: 75px;
+        filter: grayscale(50%);
     }
 }
