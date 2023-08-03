@@ -73,23 +73,6 @@
     width: 100%;
 }
 
-
-/* Social MEdia Links */
-.socials img{
-    height: 25px;
-}
-
-.socials {
-    position: absolute;
-    top: 40px;
-    right: 35px;
-
-    width: 150px;
-
-    display: flex;
-    justify-content: space-around;
-}
-
 /* Hamburger Menu */
 .menu {
     display: none;
