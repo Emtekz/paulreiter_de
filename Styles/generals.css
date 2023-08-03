@@ -41,3 +41,8 @@ li {
     /* Listenoptik entfernt */
     list-style: none;
 }
+
+/*  */
+#hide {
+    transition: opacity .25s ease-in-out;
+}
