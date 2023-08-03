@@ -154,10 +154,12 @@
     .socials {
         opacity: 0;
         pointer-events: none;
-        top: 80vh;
+        top: 75vh;
         left: calc(50vw - 37.5px);
 
         transition: opacity ease-in-out .35s;
+
+        width: fit-content;
     }
 
     .socials img {

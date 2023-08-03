@@ -1,0 +1,18 @@
+/*  */
+body {
+    filter: invert(1);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+main {
+    font-family: Poppins;
+
+    padding: 50px 20px;
+    margin-top: 50px;
+
+    border-top: 1px solid white;
+}
