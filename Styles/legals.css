@@ -1,7 +1,4 @@
 /*  */
-body {
-    filter: invert(1);
-}
 
 @font-face {
     font-family: Poppins;
@@ -15,4 +12,8 @@ main {
     margin-top: 50px;
 
     border-top: 1px solid white;
+}
+
+.background-image {
+    position: fixed;
 }
