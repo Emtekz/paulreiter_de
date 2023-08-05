@@ -1,0 +1,40 @@
+/*  */
+
+.background-image {
+    position: fixed;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    margin-top: 80vh;
+}
+
+main img {
+    height: 350px;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+
+    overflow: hidden;
+}
+
+.d-hor {
+    grid-column: span 2;
+}
+
+.d-ver {
+    grid-row: span 2;
+    height: 700px;  
+}
+
+main img:hover {
+    transform: scale(1.1);
+}
+
+.image-container {
+    overflow: hidden;
+}
