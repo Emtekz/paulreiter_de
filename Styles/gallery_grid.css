@@ -50,8 +50,23 @@ main {
 
 @media (max-width: 1250px) {
     main {
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: 450px; */
+    }
+    
+    .image-container {
+        border: 7.5px solid var(--border-clr);
+    }
+}
+
+@media (max-width: 750px) {
+    main {
         grid-template-columns: repeat(2, 1fr);
         /* grid-template-rows: 450px; */
+    }
+    
+    .image-container {
+        border: 5px solid var(--border-clr);
     }
 }
 
