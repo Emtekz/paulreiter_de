@@ -19,18 +19,26 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-rows: 500px; */
-    
+
     gap: 10px;
 }
 
 .image-section-headline {
     grid-column: span 4;
-    
+
     border-bottom: 2px solid var(--border-clr);
     margin: 100px 0 10px 0;
     font-size: 3rem;
 
     text-align: start;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.image-section-headline h3 {
+    font-size: 2.5rem;
 }
 
 .image-container {
@@ -72,7 +80,7 @@ main {
 
         font-size: 2.5rem;
     }
-    
+
     .image-container {
         border: 7.5px solid var(--border-clr);
     }
@@ -88,8 +96,8 @@ main {
         grid-column: span 2;
 
         font-size: 2rem;
-    }    
-    
+    }
+
     .image-container {
         border: 5px solid var(--border-clr);
 
@@ -98,7 +106,7 @@ main {
 }
 
 @media (max-width: 750px) {
-    
+
     .image-container {
         height: 300px;
     }
