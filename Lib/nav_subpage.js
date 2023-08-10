@@ -5,7 +5,7 @@ const navLinks = document.querySelectorAll('#nav-link');
 
 const background = document.querySelector('#background-image');
 
-const slogan = document.querySelector('#slogan')
+const hide = document.querySelector('#hide')
 
 const socials = document.querySelector('#socials');
 
@@ -16,7 +16,7 @@ let open = false;
 menuIcon.addEventListener('click', () => {
     
     if (!open) {
-        menuIcon.src = "../Images/menu_close.png";
+        menuIcon.src = "../../Images/menu_close.png";
         
         navBar.style.opacity = 1;
 
@@ -27,7 +27,7 @@ menuIcon.addEventListener('click', () => {
         background.style.filter = "brightness(25%)"
         background.style.position = "fixed"
         
-        slogan.style.opacity = 0;
+        hide.style.opacity = 0;
 
         socials.style.opacity = 1;
         socials.style.pointerEvents = "all";
@@ -36,7 +36,7 @@ menuIcon.addEventListener('click', () => {
         
         open = true;
     }else if (open) {
-        menuIcon.src = "../Images/menu_open.png";
+        menuIcon.src = "../../Images/menu_open.png";
         
         navBar.style.opacity = 0;
 
@@ -47,7 +47,7 @@ menuIcon.addEventListener('click', () => {
         background.style.filter = "brightness(50%)"
         background.style.position = "";
 
-        slogan.style.opacity = 1;
+        hide.style.opacity = 1;
 
         socials.style.opacity = 0;
         socials.style.pointerEvents = "none";
