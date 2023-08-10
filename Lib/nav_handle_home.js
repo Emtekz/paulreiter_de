@@ -19,6 +19,7 @@ menuIcon.addEventListener('click', () => {
         menuIcon.src = "./Images/menu_close.png";
         
         navBar.style.opacity = 1;
+        navBar.style.zIndex = 1;
 
         navLinks.forEach(element => {
             element.style.pointerEvents = "all";
@@ -39,6 +40,7 @@ menuIcon.addEventListener('click', () => {
         menuIcon.src = "./Images/menu_open.png";
         
         navBar.style.opacity = 0;
+        navBar.style.zIndex = -1;
 
         navLinks.forEach(element => {
             element.style.pointerEvents = "none";
