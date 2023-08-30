@@ -17,11 +17,13 @@
     justify-content: space-around;
     flex-direction: column;
 
-    height: 20vh;
+    height: calc(20vh + 15px);
 
     padding-top: 20px;
 
     /* overflow: hidden; */
+
+    gap: 15px;
 }
 
 /* Headline */
@@ -152,7 +154,7 @@
         justify-content: space-between;
         /* align-items: center; */
 
-        height: 15vh;
+        height: calc(15vh + 15px);
 
         padding: 0 20px;
     }
