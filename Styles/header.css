@@ -20,6 +20,8 @@
     height: 20vh;
 
     padding-top: 20px;
+
+    /* overflow: hidden; */
 }
 
 /* Headline */
@@ -33,7 +35,7 @@
 }
 
 .logo {
-    height: 150px;
+    height: 100px;
 
     object-fit: cover;
     object-position: center;
@@ -177,5 +179,9 @@
     .socials img {
         height: 75px;
         filter: grayscale(50%);
+    }
+
+    .logo {
+        height: 75px;
     }
 }
