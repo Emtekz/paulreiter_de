@@ -32,6 +32,18 @@
     color: var(--text-clr);
 }
 
+.logo {
+    height: 150px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.home-link {
+    height: fit-content;
+    width: fit-content;
+}
+
 /* Socials */
 .socials {
     position: absolute;
