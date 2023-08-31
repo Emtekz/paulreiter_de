@@ -134,7 +134,7 @@
         text-align: center;
         /* gap: 30px; */
 
-        z-index: 1;
+        z-index: -1;
     }
 
     .navigation li {
