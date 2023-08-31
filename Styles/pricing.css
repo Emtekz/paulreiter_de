@@ -3,6 +3,10 @@
     position: fixed;
 }
 
+footer {
+    position: unset !important;
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

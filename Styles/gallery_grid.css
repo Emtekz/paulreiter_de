@@ -10,6 +10,10 @@
     height: 100vh;
 }
 
+footer {
+    position: unset;
+}
+
 main {
     margin: calc(25vh - 100px) 20px 50px 20px;
 }

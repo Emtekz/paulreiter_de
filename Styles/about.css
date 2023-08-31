@@ -19,10 +19,6 @@ main {
     margin-left: 5%;
 }
 
-main a {
-    /* pointer-events: all; */
-}
-
 main img {
     width: 300px;
 
