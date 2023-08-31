@@ -90,7 +90,7 @@ main {
 
 @media (max-width: 750px) {
     .info-table {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
 
         border-spacing: 15px;
     }
