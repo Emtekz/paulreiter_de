@@ -5,6 +5,10 @@
     src: url(Fonts/Poppins/Poppins-Regular.ttf);
 }
 
+footer {
+    position: unset !important;
+}
+
 main {
     font-family: Poppins;
 
