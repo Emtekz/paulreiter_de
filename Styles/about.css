@@ -23,14 +23,14 @@ main {
 
 main img {
     width: 400px;
-    height: 400px;
+    height: 450px;
 
     object-fit: cover;
     object-position: center;
 
     border-radius: 20px;
 
-    border: white 2px solid;
+    border: white 3px solid;
 }
 
 .about-image p{
