@@ -2,6 +2,8 @@
 
 :root {
     --border-clr: rgb(200, 200, 200);
+
+    --column-count: 4;
 }
 
 .background-image {
@@ -21,14 +23,14 @@ main {
 
 .image-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(var(--column-count), 1fr);
     /* grid-template-rows: 500px; */
 
     gap: 10px;
 }
 
 .image-section-headline {
-    grid-column: span 4;
+    grid-column: span var(--column-count);
 
     border-bottom: 2px solid var(--border-clr);
     margin: 100px 0 10px 0;
@@ -46,7 +48,8 @@ main {
 }
 
 .image-container {
-    /* height: 500px; */
+    /* width: 350px; */
+    max-height: 400px;
 
     border: 10px solid var(--border-clr);
 
