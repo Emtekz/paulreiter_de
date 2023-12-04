@@ -79,7 +79,7 @@ main {
 
 @media (max-width: 1250px) {
     .image-section {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(calc(var(--column-count) - 1), 1fr);
         /* grid-template-rows: 450px; */
     }
 
@@ -96,7 +96,7 @@ main {
 
 @media (max-width: 750px) {
     .image-section {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(calc(var(--column-count) - 2), 1fr);
         /* grid-template-rows: 450px; */
     }
 
