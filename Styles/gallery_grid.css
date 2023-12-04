@@ -110,6 +110,7 @@ main {
         border: 5px solid var(--border-clr);
 
         height: 350px;
+        width: 45%;
     }
 }
 
@@ -117,6 +118,8 @@ main {
 
     .image-container {
         height: 250px;
+
+        width: 30%;
     }
 }
 
