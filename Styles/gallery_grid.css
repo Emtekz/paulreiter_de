@@ -3,7 +3,7 @@
 :root {
     --border-clr: rgb(200, 200, 200);
 
-    --column-count: 4;
+    --column-count: 3;
 }
 
 .background-image {
@@ -17,7 +17,7 @@ footer {
 }
 
 main {
-    margin: calc(25vh - 100px) 20px 50px 20px;
+    margin: calc(25vh - 100px) 50px 50px 50px;
 }
 
 
@@ -48,8 +48,8 @@ main {
 }
 
 .image-container {
-    /* width: 350px; */
-    max-height: 400px;
+    width: 450px;
+    height: 300px;
 
     border: 10px solid var(--border-clr);
 
@@ -72,8 +72,9 @@ main {
     transform: scale(1.1);
 }
 
-.horizontal {
-    grid-column: span 2;
+.vertikal {
+    grid-row: span 2;
+    height: calc(600px + 10px + 20px);
 }
 
 @media (max-width: 1250px) {
