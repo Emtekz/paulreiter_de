@@ -3,7 +3,7 @@
 :root {
     --border-clr: rgb(200, 200, 200);
 
-    --column-count: 3;
+    --column-count: 4;
 }
 
 .background-image {
@@ -17,7 +17,7 @@ footer {
 }
 
 main {
-    margin: calc(25vh - 100px) 50px 50px 50px;
+    margin: calc(25vh - 100px) 20px 50px 20px;
 }
 
 
@@ -48,8 +48,8 @@ main {
 }
 
 .image-container {
-    width: 450px;
-    height: 300px;
+    width: 95%;
+    height: 217px;
 
     border: 10px solid var(--border-clr);
 
@@ -74,7 +74,7 @@ main {
 
 .vertikal {
     grid-row: span 2;
-    height: calc(600px + 10px + 20px);
+    height: calc(400px + 10px + 20px);
 }
 
 @media (max-width: 1250px) {
@@ -84,7 +84,7 @@ main {
     }
 
     .image-section-headline {
-        grid-column: span 3;
+        grid-column: span calc(var(--column-count) - 1);
 
         font-size: 2.5rem;
     }
@@ -101,7 +101,7 @@ main {
     }
 
     .image-section-headline {
-        grid-column: span 2;
+        grid-column: span calc(var(--column-count) - 2);
 
         font-size: 2rem;
     }
@@ -109,7 +109,7 @@ main {
     .image-container {
         border: 5px solid var(--border-clr);
 
-        height: 350;
+        height: 350px;
     }
 }
 
