@@ -124,6 +124,10 @@ main {
 
         /* width: 45vw; */
     }
+
+    .image-container img:hover {
+        transform: scale(1);
+    }
 }
 
 /* ------------ */
