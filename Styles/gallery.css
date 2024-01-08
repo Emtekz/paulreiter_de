@@ -22,7 +22,6 @@ main {
 
 .image-container {
     height: 450px;
-    /* max-width: 33vw; */
 
     border: 10px solid var(--border-clr);
 
