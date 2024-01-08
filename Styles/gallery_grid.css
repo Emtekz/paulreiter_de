@@ -90,6 +90,10 @@ main {
     .image-container {
         border: 7.5px solid var(--border-clr);
     }
+
+    .horizontal {
+        grid-column: span 2;
+    }
 }
 
 @media (max-width: 750px) {
