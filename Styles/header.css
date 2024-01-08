@@ -41,8 +41,6 @@
 
     object-fit: cover;
     object-position: center;
-
-    /* filter: invert(1); */
 }
 
 .home-link {
