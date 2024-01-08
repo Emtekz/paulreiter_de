@@ -44,16 +44,22 @@ main {
     height: 150px;
 
     border-radius: 50%;
+
+    transition: filter ease-in-out 0.25s;
+}
+
+.contact-social:hover {
+    filter: brightness(50%);
 }
 
 .contact-mail {
     font-size: 2.75rem;
 
-    transition: color ease-in-out 0.25s;
+    transition: filter ease-in-out 0.25s;
 }
 
 .contact-mail:hover {
-    color: grey;
+    filter: brightness(50%);
 }
 
 @media (max-width: 500px) {
