@@ -83,5 +83,7 @@ main img {
     .about-text h2 {
         text-align: center;
         font-size: 2.5rem;
+
+        margin-bottom: 15px;
     }
 }
