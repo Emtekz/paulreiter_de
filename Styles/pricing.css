@@ -105,7 +105,9 @@ main {
 
     main {
         width: 80%;
-        margin-left: 10%;
+        /* margin-left: 10%;
         margin-bottom: 50px;
+        margin-top: ; */
+        margin: 80px 0 50px 10%;
     }
 }
