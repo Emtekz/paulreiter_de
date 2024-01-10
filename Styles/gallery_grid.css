@@ -93,6 +93,7 @@ main {
 
     .horizontal {
         grid-column: span 2;
+        width: 97.5%;
     }
 }
 
@@ -120,6 +121,10 @@ main {
 
     .image-container img:hover {
         transform: scale(1);
+    }
+
+    .vertikal {
+        grid-row: span 1;
     }
 }
 
