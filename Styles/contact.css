@@ -9,7 +9,7 @@ main {
     width: 80%;
     height: 350px;
 
-    margin: 125px 0;
+    margin: 125px 0 0 0;
     margin-left: 10%;
 
     display: flex;
@@ -24,7 +24,7 @@ main {
 
     text-align: center;
 
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .contacts {
