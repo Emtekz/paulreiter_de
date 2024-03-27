@@ -1,9 +1,5 @@
 /*  */
 
-.body {
-    width: 100%;
-}
-
 .background-image {
     height: 100vh;
     position: fixed;
@@ -11,7 +7,7 @@
 
 main {
     width: 80%;
-    height: 350px;
+    min-height: 350px;
 
     margin: 125px 0 0 0;
     margin-left: 10%;
@@ -38,7 +34,8 @@ main {
 
     flex-wrap: wrap;
 
-    width: 60%;
+    width: 100%;
+    overflow: hidden;
 
     gap: 40px;
 }
@@ -58,6 +55,8 @@ main {
 .contact-mail {
     font-size: 2.75rem;
 
+    text-align: center;
+
     transition: filter ease-in-out 0.25s;
 }
 
@@ -67,8 +66,13 @@ main {
 
 @media (max-width: 500px) {
 
+    main {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
     .contact-mail {
-        font-size: 2.10rem;
+        font-size: 1.75rem;
     }
 
     .contact-social {
@@ -77,10 +81,5 @@ main {
 
     .contact-text {
         font-size: 2rem;
-    }
-
-    main {
-        margin-top: 75px;
-        margin-bottom: 75px;
     }
 }
