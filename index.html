@@ -6,47 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotografie Reiter</title>
 
+    <!-- Tab Icon -->
+    <link rel="icon" href="./Images/logo_tab.png">
+
+    <!-- CSS Einbindungen -->
     <link rel="stylesheet" href="Styles/generals.css">
     <link rel="stylesheet" href="Styles/background_image.css">
     <link rel="stylesheet" href="Styles/header.css">
     <link rel="stylesheet" href="Styles/slogan.css">
     <link rel="stylesheet" href="Styles/footer.css">
 
-    <!-- <script src="Lib/home_menu.js" defer></script> -->
-    <script src="Lib/nav_handle.js" defer></script>
+    <!-- JS Einbindungen -->
+    <script src="Lib/nav_handle_home.js" defer></script>
 </head>
 
+<!-- Body -->
+<!-- Rechtsklick ist deaktiviert -->
 <body oncontextmenu="return false">
-<!-- <body> -->
-    <!-- Hintergrundbild -->
+
     <picture>
+        <!-- Hintergrundbild -->
         <source media="(min-width: 751px)" srcset="Images/home_hor.webp">
         <img class="background-image" id="background-image" src="Images/home_ver.webp" alt="">
     </picture>
 
     <header class="header" id="header">
-        <!-- <h1 class="headline" id="headline"><a href="index.html">Paul Reiter</a></h1> -->
+        <!-- Header -->
+
+        <!-- Logo -->
         <a class="home-link" href="./index.html"><img class="logo" src="./Images/logo.png" alt=""></a>
 
+        <!-- Navbar -->
         <ul class="navigation" id="navigation">
             <li id="nav-link"><a href="./Pages/gallery.html">Galerie</a></li>
             <li id="nav-link"><a href="./Pages/about.html">&Uuml;ber Mich</a></li>
-            <li id="nav-link"><a href="./Pages/informations.html">Preise & Infos</a></li>
             <li id="nav-link"><a href="./Pages/contact.html">Kontakt</a></li>
         </ul>
 
+        <!-- Hamburgermenü Navbar (Handy + Tablet) -->
         <img class="menu" id="menu" src="Images/menu_open.png">
         
+        <!-- Instagram Icon/Link -->
         <a class="socials" id="socials" href="https://www.instagram.com/fotografie.reiter/"><img src="Images/instagram.png" alt=""></a>
     </header>
 
+    <!-- Section "Slogan" -->
     <section class="slogan" id="hide">
-        <!-- <h1 class="slogan-text">Momente, festgehalten für die Ewigkeit!</h1> -->
-        <h1 class="slogan-text">&quot;Im Licht gemalte Erinnerungen&quot;</h1>
+        <h1 class="slogan-text">&quot;Mit dem Licht gemalte Erinnerungen&quot;</h1>
     </section>
 
-
     <footer>
+        <!-- Footer -->
+
+        <!-- Copyright, Impressumf und Datenschutz -->
         <p>&copy; Paul Reiter</p>
         <a href="./Pages/impressum.html">Impressum</a>
         <a href="./Pages/datenschutz.html">Datenschutz</a>

@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie</title>
 
+    <link rel="icon" href="../Images/logo_tab.png">
+
     <link rel="stylesheet" href="../Styles/generals.css">
     <link rel="stylesheet" href="../Styles/background_image.css">
     <link rel="stylesheet" href="../Styles/header.css">
-    <link rel="stylesheet" href="../Styles/slogan.css">
-    <!-- <link rel="stylesheet" href="../Styles/gallery.css"> -->
-    <link rel="stylesheet" href="../Styles/gallery_grid.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
+    <link rel="stylesheet" href="../Styles/gallery.css">
 
-    <!-- <script src="../Lib/subpage_menu.js" defer></script> -->
     <script src="../Lib/nav_handle.js" defer></script>
     <script src="../Lib/gallery.js" defer></script>
 </head>
 
-<!-- <body oncontextmenu="return false"> -->
-<body>
+<body oncontextmenu="return false">
+
     <!-- Hintergrundbild -->
     <picture>
         <source media="(min-width: 751px)" srcset="..\Images\gallery_hor.webp">
@@ -27,33 +27,165 @@
     </picture>
 
     <header class="header" id="header">
-        <!-- <h1 class="headline" id="headline"><a href="../index.html">Paul Reiter</a></h1> -->
         <a class="home-link" href="../index.html"><img class="logo" src="../Images/logo.png" alt=""></a>
 
         <ul class="navigation" id="navigation">
             <li id="nav-link" class="active"><a href="./gallery.html">Galerie</a></li>
             <li id="nav-link"><a href="./about.html" class="active">&Uuml;ber Mich</a></li>
-            <li id="nav-link"><a href="./informations.html">Preise & Infos</a></li>
             <li id="nav-link"><a href="./contact.html">Kontakt</a></li>
         </ul>
 
         <img class="menu" id="menu" src="../Images/menu_open.png">
 
-        <a class="socials" id="socials"
-            href="https://www.instagram.com/fotografie.reiter/"><img
+        <a class="socials" id="socials" href="https://www.instagram.com/fotografie.reiter/" target="_blank"><img
                 src="../Images/instagram.png" alt=""></a>
     </header>
 
     <main id="hide">
+        <!-- <h1 class="hinweis">Die Galerie wird aktuell umgestaltet!</h1> -->
+
         <!-- <section class="image-section">
             <div class="image-section-headline">
                 <h2></h2>
             </div>
-    
+            
             <div class="image-container">
                 <img src="">
             </div>
         </section> -->
+
+        <section class="image-section" id="portraits">
+            <div class="image-section-headline">
+                <h2>Portraits</h2>
+            </div>
+
+            <div class="image-container vertikal">
+                <img src="../Galerie/Portraits/anna_k.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Portraits/fiona.webp" loading="lazy">
+            </div>
+            <div class="image-container">
+                <img src="../Galerie/Portraits/marco.webp" loading="lazy">
+            </div>
+            <div class="image-container">
+                <img src="../Galerie/Portraits/marco_2.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Portraits/sabrina.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Portraits/frbox_3.webp" loading="lazy">
+            </div>
+            <div class="image-container">
+                <img src="../Galerie/Portraits/anna.webp" loading="lazy">
+            </div>
+            <div class="image-container">
+                <img src="../Galerie/Portraits/hannah.webp" loading="lazy">
+            </div>
+        </section>
+
+        <section class="image-section">
+            <div class="image-section-headline">
+                <h2>Konzerte</h2>
+            </div>
+
+            <div class="image-container vertikal">
+                <img src="../Galerie/Konzert/rcz_keyboard.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Konzert/oldboy_sing.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Konzert/oldboy_buehne.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Konzert/rcz_drums.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Konzert/newzareth_bass.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Konzert/rcz_1.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Konzert/newzareth_buehne.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Konzert/rcz_buehne.webp" loading="lazy">
+            </div>
+        </section>
+
+        <section class="image-section" id="wedding">
+            <div class="image-section-headline">
+                <h2>Hochzeiten</h2>
+            </div>
+
+            <div class="image-container vertikal">
+                <img src="../Galerie/Hochzeit/wedding.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Hochzeit/wedding_2.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Hochzeit/wedding_5.webp" loading="lazy">
+            </div>
+            <div class="image-container">
+                <img src="../Galerie/Hochzeit/wedding_3.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Hochzeit/wedding_4.webp" loading="lazy">
+            </div>
+        </section>
+
+        <section class="image-section" id="event">
+            <div class="image-section-headline">
+                <h2><a href="https://www.tanzschule-hoellriegl.de/" target="_blank">Tanzschule Höllriegl</a></h2>
+            </div>
+
+            <div class="image-container vertikal">
+                <img src="../Galerie/Hoellriegl/hoellriegl_3.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Hoellriegl/hoellriegl_2.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Hoellriegl/hoellriegl_6.webp" loading="lazy">
+            </div>
+            <div class="image-container">
+                <img src="../Galerie/Hoellriegl/hoellriegl_4.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Hoellriegl/hoellriegl_5.webp" loading="lazy">
+            </div>
+        </section>
+
+        <section class="image-section" id="comp">
+            <div class="image-section-headline">
+                <h2><a href="https://www.room4you-fitness.de/" target="_blank">Room4You - Fitness</a></h2>
+            </div>
+
+            <div class="image-container horizontal">
+                <img src="../Galerie/Room4You/team.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Room4You/sandra.webp" loading="lazy">
+            </div>
+            <div class="image-container vertikal">
+                <img src="../Galerie/Room4You/trx.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Room4You/pt.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal" loading="lazy">
+                <img src="../Galerie/Room4You/hanne.webp" loading="lazy">
+            </div>
+            <div class="image-container horizontal">
+                <img src="../Galerie/Room4You/hotiron.webp" loading="lazy">
+            </div>
+        </section>
+
+        <!-- <h1 class="hinweis" style="margin-top: 50px;">Mehr Fotos folgen!<br> Die Galerie wird aktuell umgestaltet!</h1> -->
     </main>
 
     <div class="popup">

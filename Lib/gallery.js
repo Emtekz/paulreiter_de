@@ -14,8 +14,8 @@ document.querySelector('.popup span').onclick = () => {
     document.querySelector('body').style.overflow = "visible";
 }
 
-document.onkeydown = function(evt) {
-    evt = evt || window.event;
+document.onkeydown = function(e) {
+    e = e || window.event;
     if (evt.keyCode == 27) {
         document.querySelector('.popup').style.display = 'none';  
         

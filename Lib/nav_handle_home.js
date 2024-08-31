@@ -16,7 +16,7 @@ let open = false;
 menuIcon.addEventListener('click', () => {
     
     if (!open) {
-        menuIcon.src = "./Images/menu_close.png";
+        menuIcon.src = "Images/menu_close.png";
         
         navBar.style.opacity = 1;
         navBar.style.zIndex = 1;
@@ -37,7 +37,7 @@ menuIcon.addEventListener('click', () => {
         
         open = true;
     }else if (open) {
-        menuIcon.src = "./Images/menu_open.png";
+        menuIcon.src = "Images/menu_open.png";
         
         navBar.style.opacity = 0;
         navBar.style.zIndex = -1;

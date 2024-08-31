@@ -6,41 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>&Uuml;ber Mich</title>
 
+    <!-- Tab Icon -->
+    <link rel="icon" href="../Images/logo_tab.png">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="../Styles/generals.css">
     <link rel="stylesheet" href="../Styles/background_image.css">
     <link rel="stylesheet" href="../Styles/header.css">
-    <link rel="stylesheet" href="../Styles/slogan.css">
+    <link rel="stylesheet" href="../Styles/about.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
 
-      <!-- <script src="../Lib/subpage_menu.js" defer></script> -->
-      <script src="../Lib/nav_handle.js" defer></script>
+    <!-- JS Einbindungen -->
+    <script src="../Lib/nav_handle.js" defer></script>
 </head>
 
-<body>
+<body oncontextmenu="return false">
+    <!-- <body> -->
     <!-- Hintergrundbild -->
     <picture>
-        <source media="(min-width: 751px)" srcset="../Images/about_hor.webp">
-        <img class="background-image" id="background-image" src="../Images/about_ver.webp" alt="">
+        <source media="(min-width: 751px)" srcset="../Images/info_hor.webp">
+        <img class="background-image" id="background-image" src="../Images/info_ver.webp" alt="">
     </picture>
 
     <header class="header" id="header">
-        <!-- <h1 class="headline" id="headline"><a href="../index.html">Paul Reiter</a></h1> -->
+        <!-- Header -->
+
+        <!-- Logo -->
         <a class="home-link" href="../index.html"><img class="logo" src="../Images/logo.png" alt=""></a>
 
+        <!-- Navbar -->
         <ul class="navigation" id="navigation">
             <li id="nav-link"><a href="./gallery.html">Galerie</a></li>
             <li id="nav-link" class="active"><a href="./about.html" class="active">&Uuml;ber Mich</a></li>
-            <li id="nav-link"><a href="./informations.html">Preise & Infos</a></li>
             <li id="nav-link"><a href="./contact.html">Kontakt</a></li>
         </ul>
 
+        <!-- Hamburgermenü Navbar (Handy + Tablet) -->
         <img class="menu" id="menu" src="../Images/menu_open.png">
-        
-        <a class="socials" id="socials" href="https://instagram.com/_der.paul?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="../Images/instagram.png" alt=""></a>
+
+        <!-- Instagram Icon/Link -->
+        <a class="socials" id="socials"
+            href="https://instagram.com/_der.paul?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><img
+                src="../Images/instagram.png" alt=""></a>
     </header>
 
-    <section class="slogan" id="hide">
-        <h1 class="slogan-text">Mehr Infos &uuml;ber Mich gibt es in k&uuml;rze!</h1>
-    </section>
+    <main id="hide">
+        <div class="about-image">
+            <!-- Bild von mir -->
+            <img src="../Images/me.webp" alt="">
+        </div>
+
+        <!-- Text über mich -->
+        <div class="about-text">
+            <h2>Hi!</h2>
+            <p>Mein Name ist Paul. Ich bin Fotograf aus der Umgebung Weiden in der Oberpfalz.</p>
+            <p>2020 kaufte ich mir meine erste Kamera und lernte schnell die Fotografie lieben.</p>
+            <p>Seitdem versuche ich mein Können in den Bereichen Portrait-, Event- und Hochzeitsfotografie zu erweitern.
+            </p>
+            <p><br>Wenn Du Interesse hast mit mir zu arbeiten oder Du Fragen hast, <a href="./contact.html">melde Dich
+                    gerne bei mir</a>!</p>
+        </div>
+    </main>
 </body>
 
 </html>
