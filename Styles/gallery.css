@@ -2,13 +2,12 @@
 
 :root {
     --border-clr: rgb(200, 200, 200);
-
     --column-count: 4;
 }
 
 .background-image {
     position: fixed;
-    height: 100vh;
+    height: 100dvh;
 }
 
 footer {
@@ -18,27 +17,21 @@ footer {
 main {
     margin: calc(25vh - 125px) 0px 50px 0px;
     width: 95vw;
-
     margin-left: 2.5vw;
 }
-
 
 .image-section {
     display: grid;
     grid-template-columns: repeat(var(--column-count), 1fr);
-
     gap: 10px;
 }
 
 .image-section-headline {
     grid-column: span var(--column-count);
-
     border-bottom: 2px solid var(--border-clr);
     margin: 100px 0 10px 0;
     font-size: 3rem;
-
     text-align: start;
-
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -51,21 +44,16 @@ main {
 .image-container {
     width: 95%;
     height: 250px;
-
     border: 10px solid var(--border-clr);
-
     overflow: hidden;
 }
 
 .image-container img {
     height: 100%;
     width: 100%;
-
     object-fit: cover;
     object-position: center;
-
     transition: .2s linear;
-
     cursor: pointer;
 }
 
@@ -79,18 +67,15 @@ main {
 }
 
 @media (max-width: 1250px) {
-    :root {
+     :root {
         --column-count: 3;
     }
-
     .image-section-headline {
         font-size: 2.5rem;
     }
-
     .image-container {
         border: 7.5px solid var(--border-clr);
     }
-
     .horizontal {
         grid-column: span 1;
         /* width: 97.5%; */
@@ -98,40 +83,34 @@ main {
 }
 
 @media (max-width: 750px) {
-    :root {
+     :root {
         --column-count: 2;
     }
-
     .image-section-headline {
         font-size: 2rem;
     }
-
     .image-container {
         border: 5px solid var(--border-clr);
-
         height: 350px;
     }
 }
 
 @media (max-width: 750px) {
-
     .image-container {
         height: 250px;
     }
-
     .image-container img:hover {
         transform: scale(1);
     }
-
     .horizontal {
         /* grid-row: span 2; */
         width: 97.5%;
     }
-
     .vertikal {
         grid-row: span 1;
     }
 }
+
 
 /* ------------ */
 
@@ -143,7 +122,6 @@ main {
     height: 100%;
     width: 100%;
     z-index: 100;
-
     display: none;
 }
 
@@ -162,11 +140,9 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
     border: 5px solid white;
     border-radius: 5px;
-
     max-height: 95%;
     max-width: 98%;
     object-fit: cover;
@@ -176,7 +152,6 @@ main {
     .popup img {
         width: 95%;
     }
-
     .horizontal {
         grid-column: span 2;
     }

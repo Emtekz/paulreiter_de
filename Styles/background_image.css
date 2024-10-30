@@ -3,30 +3,24 @@
 .background-image {
     /* Größe an Bildschirm angepasst */
     width: 100%;
-    height: 100svh;
-
+    height: 100dvh;
     /* Verzerrung entfernt */
     object-position: center;
     object-fit: cover;
-
     /* Am Eck Oben Links Postioniert */
     position: absolute;
     top: 0;
     left: 0;
-
     /* In den Hintergrund */
     z-index: -1;
-
     /* Helligkeit entfernt */
     filter: brightness(50%);
-
     transition: filter .35s ease-in-out;
 }
 
 @media (max-width: 750px) {
     .background-image {
         object-position: bottom;
-
-        height: 100svh;
+        height: 100dvh;
     }
 }
